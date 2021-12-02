@@ -2058,13 +2058,13 @@ inputArr2 = [
     263
 ]
 
-const task1 = document.getElementById('day1').firstElementChild;
-const task2 = document.getElementById('day1').lastElementChild;
+const task11 = document.getElementById('day1').firstElementChild;
+const task12 = document.getElementById('day1').lastElementChild;
 
 function day1task1() {
-    task1.innerHTML += '<p>Result: ' + countIncreases(inputArr) +' increases</p>'
+    task11.innerHTML += '<p>Result: ' + countIncreases(inputArr) +' increases</p>'
 }
 
 function day1task2() {
-    task2.innerHTML += '<p>Result: ' + countIncreasesTwo(inputArr) +' increases</p>'
+    task12.innerHTML += '<p>Result: ' + countIncreasesTwo(inputArr) +' increases</p>'
 }

@@ -6,15 +6,16 @@
     <title>Advent of Code 2021</title>
 
     <style>
-        #day1 {
+        .day {
             border: 1px solid black;
             width: 500px;
             margin: 0 auto;
             text-align: center;
             padding-bottom: 10px;
             padding-top: 10px;
+            margin-bottom: 10px;
         }
-        #day1 > .task1, #day1 > .task2 {
+        .task1, .task2 {
             border: 1px solid black;
             width: 400px;
             margin: 0 auto;
@@ -27,7 +28,7 @@
 <body>
     <main>
         <section>
-            <div id="day1">
+            <div id="day1" class="day">
                 Day 1
 
                 <div class="task1" onclick="day1task1()"><span>Task 1</span></div>
@@ -35,9 +36,19 @@
                 <div class="task2" onclick="day1task2()"><span>Task 2</span></div>
             </div>
         </section>
+        <section>
+            <div id="day2" class="day">
+                Day 2
+
+                <div class="task1" onclick="day2task1()"><span>Task 1</span></div>
+
+                <div class="task2" onclick="day2task2()"><span>Task 2</span></div>
+            </div>
+        </section>
     </main>
 
     <script type="text/javascript" src="day1.js"></script>
+    <script type="text/javascript" src="day2.js"></script>
 </body>
 
 </html>
